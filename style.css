@@ -29,6 +29,15 @@ hr {
     max-width: 600px;
     margin: auto;
 }
+.container-centre-width {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.container-endtoend-full {
+    padding: 0rem 1rem;
+}
+
 
 /** links **/
 .link {
@@ -165,4 +174,40 @@ hr {
 /** blogs **/
 .showcase-blog {
     padding-bottom: 6rem;
+}
+/* added later */
+.blog-para{
+    font-size: 1.2rem;
+    text-align: justify;
+
+}
+
+.back {
+    display: block;
+    margin: auto;
+}
+
+
+.bio{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+
+.projectHead{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+
+.date{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.blogHeading{
+    margin-bottom: 0px;
 }
