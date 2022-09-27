@@ -89,7 +89,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+
 }
 
 .navigation .nav-brand {
@@ -130,7 +130,7 @@ hr {
 
 .hero .hero-heading {
     text-align: center;
-    
+    padding-top: 1rem;
     color: var(--dark-gray);
 }
 
