@@ -142,6 +142,7 @@ hr {
 
 .section {
     padding: 2rem;
+    //  border-radius: 50px;
 }
 
 .section h1 {
