@@ -103,6 +103,11 @@ hr {
     font-weight: bold;
 }
 
+.nav-modified{
+    padding: 0rem 0rem;
+}
+
+
 /** header **/
 
 .hero {
