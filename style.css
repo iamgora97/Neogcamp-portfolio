@@ -125,6 +125,7 @@ hr {
 
 
 .hero-img {
+    padding: 3rem;
     max-width: 50%;
     border-radius: 50%;
     width: 350px;
