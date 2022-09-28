@@ -28,6 +28,7 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
+    text-align: center;
 }
 .container-centre-width {
     max-width: 600px;
@@ -46,13 +47,21 @@ hr {
     padding: 0.5rem 1rem;
 }
 
+.link-social{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
+    display: center;
     color: white;
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
+    
 }
 
 .link-secondary {
@@ -62,11 +71,6 @@ hr {
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
-}
-.link-social{
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 0.5rem;
 }
 
 /** look into BEM naming convention for CSS **/
@@ -89,7 +93,8 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .navigation .nav-brand {
@@ -121,20 +126,24 @@ hr {
 
 }
 
-.hero .hero-img {
-    max-width: 80%;
+
+.hero-img {
+    max-width: 50%;
+    border-radius: 50%;
     width: 350px;
     display: block;
     margin: auto;
 }
 
-.hero .hero-heading {
+.hero-heading {
     text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray);
+    text-align: center;
 }
 
-.hero .hero-heading .heading-inverted {
+
+.heading-inverted {
     color: var(--primary-color);
 }
 
@@ -142,7 +151,7 @@ hr {
 
 .section {
     padding: 2rem;
-    /**  border-radius: 50px; **/
+    border-radius: 50px;
 }
 
 .section h1 {
@@ -161,14 +170,13 @@ hr {
     padding: 4rem 1rem;
     text-align: center;
     color: white;
-    
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 
-.footer .link {
-    color: white
-}
 
-.footer .footer-header {
+
+.footer-header {
     font-weight: bold;
     font-size: large;
 }
