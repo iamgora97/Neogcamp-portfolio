@@ -3,7 +3,7 @@
 :root {
     --primary-color: #7C3AED;
     --off-white: #F3F4F6;
-    --dark-gray: #6B7280;
+    --dark-gray: #000000;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -53,12 +53,12 @@ hr {
     padding: 0.5rem;
 }
 
-.link-primary {
+ .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     display: center;
     color: white;
-    display: block;
+    display: inline;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
     
@@ -67,11 +67,14 @@ hr {
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
+    background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
-    display: block;
+    display: inline;
     max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
-}
+    margin: 1rem 1rem 1rem 0rem; 
+} 
+
+  
 
 /** look into BEM naming convention for CSS **/
 
@@ -97,19 +100,19 @@ hr {
     border-bottom-right-radius: 1rem;
 }
 
-.navigation .nav-brand {
+.nav-brand {
     font-weight: bold;
 }
 
-.navigation .nav-pills {
+.nav-pills {
     text-align: right;
 }
 
-.navigation .link {
+.link {
     color: white;
 }
 
-.navigation .link-active {
+.link-active {
     font-weight: bold;
 }
 
