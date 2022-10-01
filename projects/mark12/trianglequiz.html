@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Triangle Quiz</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Is Triangle?</a>
+        <a href="trianglequiz.html">Triangle Quiz</a>
+        <a href="hypotenuse.html">Hypotenuse</a>
+        <a href="area.html">Area</a>
+    </nav>
+    <h1>Triangle Quiz</h1>
+    <form class="quiz">
+        <div class="questions">
+            <p>Area of an equilateral triangle with side length a is equal to: </p>
+            <label><input type="radio" name="question1" value="√3/2a"/>√3/2a</label>
+            <label><input type="radio" name="question1" value="√3/2a^2"/>√3/2a^2</label>
+            <label><input type="radio" name="question1" value="√3/4a^2"/>√3/4a^2</label> <!-- right -->
+        </div>
+        <div class="questions">
+            <p>If triangles ABC and DEF are similar and AB=4 cm, DE=6 cm, EF=9 cm and FD=12 cm, the perimeter of
+                triangle is:</p>
+            <label><input type="radio" name="question2" value="22 cm"/>22 cm</label>
+            <label><input type="radio" name="question2" value="18 cm"/>18 cm</label> <!-- right -->
+            <label><input type="radio" name="question2" value="20 cm"/>20 cm</label>
+        </div>
+
+        <div class="questions">
+            <p>What is the third angle for the triangle where angle1 = 45 and angle2 = 60? </p>
+            <label><input type="radio" name="question3" value="75"/>75</label>
+            <label><input type="radio" name="question3" value="60"/>60</label>
+            <label><input type="radio" name="question3" value="90"/>90</label>
+        </div>
+
+        <div class="questions">
+            <p>If two sides of a triangle are not equal, the triangle is called </p>
+            <label><input type="radio" name="question4" value="isosceles"/>isosceles</label>
+            <label><input type="radio" name="question4" value="scalene"/>scalene</label>
+            <label><input type="radio" name="question4" value="right-angled"/>right-angled</label>
+        </div>
+        <div class="questions">
+            <p>If one angle of a triangle measures 90°, the triangle is called</p>
+            <label><input type="radio" name="question5" value="acute-angled"/>acute-angled</label>
+            <label><input type="radio" name="question5" value="right-angled"/>right-angled</label>
+            <label><input type="radio" name="question5" value="none of these"/>none of these</label>
+        </div>
+    </form>
+    <button id="submit-btn">Submit Answers</button>
+    <div id="output"></div>
+
+    <script src="trianglequiz.js"></script>
+</body>
+
+</html>
